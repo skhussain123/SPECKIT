@@ -266,10 +266,13 @@ gas_web_apps - Ready (149 tools, 3 prompts)
 2. WEB_APP_URL?accessKey=HussainKey2025
 
 
+---
+
 ## Some Prompt
 
 ### 1. Generate a Quiz Using Google Forms
 
+**Prompt**
 *Suggest 5 questions and answers for a quiz with multiple-choice questions for learning Google Apps Script for beginners. Generate the quiz in Google Forms using the questions. The number of choices for each question is 5. The title of the quiz is "Learning Google Apps Script".*
 
 
@@ -281,16 +284,18 @@ gas_web_apps - Ready (149 tools, 3 prompts)
    * Edit URL: https://docs.google.com/forms/d/###/edit
    * Published URL: https://docs.google.com/forms/d/e/#####/viewform
 ```
+<br>
 
 ![alt text](image.png)
 
 ### 2. Generate a Survey Using Google Forms and Send the URL via Email
 
-*I want to conduct a survey about favorite Japanese foods. Your mission is as follows:  
+**Prompt**
+I want to conduct a survey about favorite Japanese foods. Your mission is as follows:  
 * Generate a survey using Google Forms.  
 * Send an email to tanaike@hotmail.com including the published URL of the Google Form.  
 * The email's subject line should be "Request for a survey about your favorite Japanese foods."  
-* Create the email's body from the subject.*
+* Create the email's body from the subject.
 
 
 ```bash
@@ -305,8 +310,23 @@ gas_web_apps - Ready (149 tools, 3 prompts)
 
 ✦ I have successfully generated the survey and sent the email with the published URL of the Google Form to tanaike@hotmail.com.
 ```
+<br>
 
-![alt text](image-1.png)
+![alt text](image6.png)
 
 
 ### 3. Generate Presentation
+
+**Prompt**
+*Please create a 3-minute presentation. The title will be "Cooking miso soup". My name is Tanaike. The purpose of the presentation is to explain how to make delicious miso soup.*
+
+```bash
+ ✔  generate_presentation_with_google_slides (gas_web_apps MCP Server) {"name":"Tanaike","text":"This presentation will guide …
+  Presentation was successfully created. The url is "https://docs.google.com/open?id=###".
+
+✦ The presentation "Cooking misosoup" has been created. You can access it at:
+  https://docs.google.com/open?id=###
+```
+<br>
+
+![alt text](image7.png)
