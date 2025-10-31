@@ -194,6 +194,9 @@ function main(eventObject) {
 }
 ```
 
+---
+
+
 ## Step 2 Click to Libraries Add a library
 
 | Library Name      | Identifier        | Full Script ID (Project Key)                              | Repository                                                                                       |
@@ -213,3 +216,26 @@ function main(eventObject) {
 
 #### Add MCPApp ToolsForMCPServer 
 * same as MCPApp but use name (ToolsForMCPServer) or (1lnE7UL1jQgPDbTB9yjhiwZM0SaS9MObhzvWUWb_t8FisO6A3bLepvM2j)
+
+---
+
+## Step 3 Deploy Project on (Wep App)
+
+<br>
+
+![alt text](image4.PNG) 
+
+<br>
+
+![alt text](image3.PNG)
+
+<br>
+
+#### Click to Authorized Button and (login With Google Account)
+
+---
+
+## Step 4
+
+
+
