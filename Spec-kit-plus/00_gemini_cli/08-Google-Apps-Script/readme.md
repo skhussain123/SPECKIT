@@ -256,3 +256,13 @@ gas_web_apps - Ready (149 tools, 3 prompts)
 ---
 
 
+### Debug Steps:
+* Run this command on Terminal 
+
+npx mcp-remote WEB_APP_URL?accessKey=HussainKey2025
+
+<br>
+
+WEB_APP_URL?accessKey=HussainKey2025
+
+
