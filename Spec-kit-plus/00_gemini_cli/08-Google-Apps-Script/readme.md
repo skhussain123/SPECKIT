@@ -5,8 +5,97 @@
 
 ---
 
-### **/mcp**
+## Step 1
 
+#### 1. go to https://script.google.com/
+
+<br>
+
+#### 2. Create App
+
+<br>
+
+#### 3. Paste Script in (code.gs)
+  ```bash
+  const apiKey = ""; // API key for Gemini API (ya aapka real key)
+
+const doPost = (e) => main(e);
+
+function main(eventObject) {
+  const m = ToolsForMCPServer;
+  m.apiKey = apiKey;
+  const object = { eventObject, items: m.getServer() };
+  return new MCPApp.mcpApp({ accessKey: "HussainKey2025" })
+    .setServices({ lock: LockService.getScriptLock() })
+    .server(object);
+}
+```
+
+---
+
+
+## Step 2 Click to Libraries Add a library
+
+| Library Name      | Identifier        | Full Script ID (Project Key)                              | Repository                                                                                       |
+| ----------------- | ----------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| MCPApp            | MCPApp            | 1TlX_L9COAriBlAYvrMLiRFQ5WVf1n0jChB6zHamq2TNwuSbVlI5sBUzh | [https://github.com/tanaikech/MCPApp](https://github.com/tanaikech/MCPApp)                       |
+| ToolsForMCPServer | ToolsForMCPServer | 1lnE7UL1jQgPDbTB9yjhiwZM0SaS9MObhzvWUWb_t8FisO6A3bLepvM2j | [https://github.com/tanaikech/ToolsForMCPServer](https://github.com/tanaikech/ToolsForMCPServer) |
+
+#### Add MCPApp library 
+<br>
+
+![alt text](image1.PNG)
+
+<br>
+
+![alt text](image2.PNG) 
+
+
+#### Add MCPApp ToolsForMCPServer 
+* same as MCPApp but use name (ToolsForMCPServer) or (1lnE7UL1jQgPDbTB9yjhiwZM0SaS9MObhzvWUWb_t8FisO6A3bLepvM2j)
+
+---
+
+## Step 3 Deploy Project on (Wep App)
+
+<br>
+
+![alt text](image4.PNG) 
+
+<br>
+
+![alt text](image3.PNG)
+
+#### Click to Authorized Button and (login With Google Account)
+
+#### Copy Web Url
+
+![alt text](image5.PNG)
+
+---
+
+## Step 4 settings.json
+
+```bash
+{
+  "ide": { "hasSeenNudge": true },
+  "mcpServers": {
+    "gas_web_apps": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://script.google.com/macros/s/AKfycbx6Dx7P8-S9XD-YmMy0kCjRuTgkL5h_Varjyn8SYQ/exec?accessKey=HussainKey2025"
+      ],
+      "env": {},
+      "timeout": 30000
+    }
+  },
+  "security": { "auth": { "selectedType": "oauth-personal" } },
+  "ui": { "theme": "Default" }
+}
+```
+
+## Test Project in Gemini Cli
 ```bash
 gas_web_apps - Ready (149 tools, 3 prompts)
   Tools:
@@ -164,98 +253,6 @@ gas_web_apps - Ready (149 tools, 3 prompts)
   - get_weather
   - search_files_on_google_drive
   ```
-
-
 ---
-
-## Step 1
-
-#### 1. go to https://script.google.com/
-
-<br>
-
-#### 2. Create App
-
-<br>
-
-#### 3. Paste Script in (code.gs)
-  ```bash
-  const apiKey = ""; // API key for Gemini API (ya aapka real key)
-
-const doPost = (e) => main(e);
-
-function main(eventObject) {
-  const m = ToolsForMCPServer;
-  m.apiKey = apiKey;
-  const object = { eventObject, items: m.getServer() };
-  return new MCPApp.mcpApp({ accessKey: "HussainKey2025" })
-    .setServices({ lock: LockService.getScriptLock() })
-    .server(object);
-}
-```
-
----
-
-
-## Step 2 Click to Libraries Add a library
-
-| Library Name      | Identifier        | Full Script ID (Project Key)                              | Repository                                                                                       |
-| ----------------- | ----------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| MCPApp            | MCPApp            | 1TlX_L9COAriBlAYvrMLiRFQ5WVf1n0jChB6zHamq2TNwuSbVlI5sBUzh | [https://github.com/tanaikech/MCPApp](https://github.com/tanaikech/MCPApp)                       |
-| ToolsForMCPServer | ToolsForMCPServer | 1lnE7UL1jQgPDbTB9yjhiwZM0SaS9MObhzvWUWb_t8FisO6A3bLepvM2j | [https://github.com/tanaikech/ToolsForMCPServer](https://github.com/tanaikech/ToolsForMCPServer) |
-
-#### Add MCPApp library 
-<br>
-
-![alt text](image1.PNG)
-
-<br>
-
-![alt text](image2.PNG) 
-
-
-#### Add MCPApp ToolsForMCPServer 
-* same as MCPApp but use name (ToolsForMCPServer) or (1lnE7UL1jQgPDbTB9yjhiwZM0SaS9MObhzvWUWb_t8FisO6A3bLepvM2j)
-
----
-
-## Step 3 Deploy Project on (Wep App)
-
-<br>
-
-![alt text](image4.PNG) 
-
-<br>
-
-![alt text](image3.PNG)
-
-#### Click to Authorized Button and (login With Google Account)
-
-#### Copy Web Url
-
-![alt text](image5.PNG)
-
----
-
-## Step 4 settings.json
-
-```bash
-{
-  "ide": { "hasSeenNudge": true },
-  "mcpServers": {
-    "gas_web_apps": {
-      "command": "npx",
-      "args": [
-        "mcp-remote",
-        "https://script.google.com/macros/s/AKfycbx6Dx7P8-S9XD-YmMy0kCjRuTgkL5h_Varjyn8SYQ/exec?accessKey=HussainKey2025"
-      ],
-      "env": {},
-      "timeout": 30000
-    }
-  },
-  "security": { "auth": { "selectedType": "oauth-personal" } },
-  "ui": { "theme": "Default" }
-}
-```
 
 
