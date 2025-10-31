@@ -231,8 +231,6 @@ function main(eventObject) {
 
 #### Click to Authorized Button and (login With Google Account)
 
-<br>
-
 #### Copy Web Url
 
 ![alt text](image5.PNG)
