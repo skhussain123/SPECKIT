@@ -229,10 +229,9 @@ function main(eventObject) {
 
 ![alt text](image3.PNG)
 
-<br>
-
 #### Click to Authorized Button and (login With Google Account)
 
+<br>
 
 #### Copy Web Url
 
@@ -240,6 +239,25 @@ function main(eventObject) {
 
 ---
 
-## Step 4
+## Step 4 settings.json
+
+```bash
+{
+  "ide": { "hasSeenNudge": true },
+  "mcpServers": {
+    "gas_web_apps": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://script.google.com/macros/s/AKfycbx6Dx7P8-S9XD-YmMy0kCjRuTgkL5h_VarjynWBWlstF3LYn6qRGgf4Beo_1qZaOF8SYQ/exec?accessKey=HussainKey2025"
+      ],
+      "env": {},
+      "timeout": 30000
+    }
+  },
+  "security": { "auth": { "selectedType": "oauth-personal" } },
+  "ui": { "theme": "Default" }
+}
+```
 
 
