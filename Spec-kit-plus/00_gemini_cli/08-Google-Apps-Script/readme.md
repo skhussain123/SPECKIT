@@ -247,7 +247,7 @@ function main(eventObject) {
       "command": "npx",
       "args": [
         "mcp-remote",
-        "https://script.google.com/macros/s/AKfycbx6Dx7P8-S9XD-YmMy0kCjRuTgkL5h_VarjynWBWlstF3LYn6qRGgf4Beo_1qZaOF8SYQ/exec?accessKey=HussainKey2025"
+        "https://script.google.com/macros/s/AKfycbx6Dx7P8-S9XD-YmMy0kCjRuTgkL5h_Varjyn8SYQ/exec?accessKey=HussainKey2025"
       ],
       "env": {},
       "timeout": 30000
