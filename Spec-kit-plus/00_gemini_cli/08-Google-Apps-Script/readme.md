@@ -272,7 +272,7 @@ gas_web_apps - Ready (149 tools, 3 prompts)
 
 ### 1. Generate a Quiz Using Google Forms
 
-**Prompt**
+**Prompt**<br>
 *Suggest 5 questions and answers for a quiz with multiple-choice questions for learning Google Apps Script for beginners. Generate the quiz in Google Forms using the questions. The number of choices for each question is 5. The title of the quiz is "Learning Google Apps Script".*
 
 
@@ -290,7 +290,7 @@ gas_web_apps - Ready (149 tools, 3 prompts)
 
 ### 2. Generate a Survey Using Google Forms and Send the URL via Email
 
-**Prompt**
+**Prompt** <br>
 I want to conduct a survey about favorite Japanese foods. Your mission is as follows:  
 * Generate a survey using Google Forms.  
 * Send an email to tanaike@hotmail.com including the published URL of the Google Form.  
@@ -317,7 +317,7 @@ I want to conduct a survey about favorite Japanese foods. Your mission is as fol
 
 ### 3. Generate Presentation
 
-**Prompt**
+**Prompt**<br>
 *Please create a 3-minute presentation. The title will be "Cooking miso soup". My name is Tanaike. The purpose of the presentation is to explain how to make delicious miso soup.*
 
 ```bash
