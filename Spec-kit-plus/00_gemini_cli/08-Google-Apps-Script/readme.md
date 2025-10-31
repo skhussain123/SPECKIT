@@ -164,3 +164,32 @@ gas_web_apps - Ready (149 tools, 3 prompts)
   - get_weather
   - search_files_on_google_drive
   ```
+
+
+---
+
+## Step 1
+
+#### 1. go to https://script.google.com/
+
+<br>
+
+#### 2. Create App
+
+<br>
+
+#### 3. Paste Script in (code.gs)
+  ```bash
+  const apiKey = ""; // API key for Gemini API (ya aapka real key)
+
+const doPost = (e) => main(e);
+
+function main(eventObject) {
+  const m = ToolsForMCPServer;
+  m.apiKey = apiKey;
+  const object = { eventObject, items: m.getServer() };
+  return new MCPApp.mcpApp({ accessKey: "HussainKey2025" })
+    .setServices({ lock: LockService.getScriptLock() })
+    .server(object);
+}
+```
