@@ -5,7 +5,7 @@
 
 <br>
 
-**/mcp**
+### **/mcp**
 
 ```bash
 gas_web_apps - Ready (149 tools, 3 prompts)
