@@ -193,3 +193,23 @@ function main(eventObject) {
     .server(object);
 }
 ```
+
+## Step 2 Click to Libraries Add a library
+
+| Library Name      | Identifier        | Full Script ID (Project Key)                              | Repository                                                                                       |
+| ----------------- | ----------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| MCPApp            | MCPApp            | 1TlX_L9COAriBlAYvrMLiRFQ5WVf1n0jChB6zHamq2TNwuSbVlI5sBUzh | [https://github.com/tanaikech/MCPApp](https://github.com/tanaikech/MCPApp)                       |
+| ToolsForMCPServer | ToolsForMCPServer | 1lnE7UL1jQgPDbTB9yjhiwZM0SaS9MObhzvWUWb_t8FisO6A3bLepvM2j | [https://github.com/tanaikech/ToolsForMCPServer](https://github.com/tanaikech/ToolsForMCPServer) |
+
+#### Add MCPApp library 
+<br>
+
+![alt text](image1.PNG)
+
+<br>
+
+![alt text](image2.PNG) 
+
+
+#### Add MCPApp ToolsForMCPServer 
+* same as MCPApp but use name (ToolsForMCPServer) or (1lnE7UL1jQgPDbTB9yjhiwZM0SaS9MObhzvWUWb_t8FisO6A3bLepvM2j)
