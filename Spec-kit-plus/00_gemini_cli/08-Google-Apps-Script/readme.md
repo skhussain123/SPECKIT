@@ -266,3 +266,47 @@ gas_web_apps - Ready (149 tools, 3 prompts)
 2. WEB_APP_URL?accessKey=HussainKey2025
 
 
+## Some Prompt
+
+### 1. Generate a Quiz Using Google Forms
+
+*Suggest 5 questions and answers for a quiz with multiple-choice questions for learning Google Apps Script for beginners. Generate the quiz in Google Forms using the questions. The number of choices for each question is 5. The title of the quiz is "Learning Google Apps Script".*
+
+
+```bash
+  ✔  generate_quiz_with_google_forms (gas_web_apps MCP Server) {"title":"Learning Google Apps Script","itemList":[{"required":t…
+  The quiz was successfully generated as a Google Form. The edit URL and published URL of the form are "https://docs.google.com/forms/d/###/edit" and "https://docs.google.com/forms/d/e/#####/viewform", respectively.
+
+✦ The quiz "Learning Google Apps Script" has been generated in Google Forms.
+   * Edit URL: https://docs.google.com/forms/d/###/edit
+   * Published URL: https://docs.google.com/forms/d/e/#####/viewform
+```
+
+![alt text](image.png)
+
+### 2. Generate a Survey Using Google Forms and Send the URL via Email
+
+*I want to conduct a survey about favorite Japanese foods. Your mission is as follows:  
+* Generate a survey using Google Forms.  
+* Send an email to tanaike@hotmail.com including the published URL of the Google Form.  
+* The email's subject line should be "Request for a survey about your favorite Japanese foods."  
+* Create the email's body from the subject.*
+
+
+```bash
+✔  generate_survey_with_google_forms (gas_web_apps MCP Server) {"title":"Favorite Japanese Foods Survey","itemList":[{"requir…
+  The survey was successfully generated as a Google Form. The edit URL and published URL of the form are "https://docs.google.com/forms/d/###/edit" and "https://docs.google.com/forms/d/e/#####/viewform", respectively.
+
+  ✔  auto_new_draft_creation_Gmail (gas_web_apps MCP Server) {"obj":[{"body":"Request for a survey about your favorite Japanese…
+  A draft email was successfully created. The draft ID is "r###".
+
+  ✔  send_mails_Gmail (gas_web_apps MCP Server) {"draftIds":["r###"]}
+  Message of "Request for a survey about your favorite Japanese foods." was correctly sent.
+
+✦ I have successfully generated the survey and sent the email with the published URL of the Google Form to tanaike@hotmail.com.
+```
+
+![alt text](image-1.png)
+
+
+### 3. Generate Presentation
