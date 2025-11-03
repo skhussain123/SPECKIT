@@ -74,6 +74,16 @@ function main(eventObject) {
 
 ---
 
+<br>
+
+![alt text](image8.PNG)
+
+<br>
+
+* make sure krna ha api key google colud console ke us he project ko select krke create krni ha jo project use kr rahy ho
+
+<br>
+
 ## Step 4 settings.json
 
 ```bash
