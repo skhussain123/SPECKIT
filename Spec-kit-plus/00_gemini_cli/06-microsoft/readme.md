@@ -40,7 +40,7 @@ npx -y @softeria/ms-365-mcp-server --login
 ```
 <br>
 
-![alt text](image1.png)
+![alt text](image1.PNG)
 
 
 
