@@ -270,12 +270,11 @@ gas_web_apps - Ready (149 tools, 3 prompts)
 * Run this command on Terminal 
 
 1. npx mcp-remote WEB_APP_URL?accessKey=HussainKey2025
-
-<br>
-
 2. WEB_APP_URL?accessKey=HussainKey2025
 
-
+---
+**Note**
+Jo services use krni ha ussy google colud console me library me jakr enabled krle. taky gemini cli ko access mil jaye uska.
 ---
 
 ## Some Prompt
