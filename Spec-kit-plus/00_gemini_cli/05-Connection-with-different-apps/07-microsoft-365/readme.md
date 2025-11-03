@@ -43,4 +43,11 @@ npx -y @softeria/ms-365-mcp-server --login
 ![alt text](image1.PNG)
 
 
+### Some Test Prompt
+```bash
+What's in my inbox? Show last 3 emails.
+```
 
+```bash
+Add calendar event: "Gym" on November 5 at 7 AM, 45 mins.
+```
