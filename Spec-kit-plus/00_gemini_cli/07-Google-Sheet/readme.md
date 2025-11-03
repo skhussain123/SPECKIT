@@ -12,6 +12,11 @@
 
 <br>
 
+
+![alt text](image2.PNG)
+
+<br>
+
 ##### Email ko copy kro or Google Drive me access do
 * Click "Share" button (top right)
 * apny Service account ki Email daalo or Editor Access ko Spreadsheet ko
