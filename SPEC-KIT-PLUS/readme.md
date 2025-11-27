@@ -1,4 +1,6 @@
 
+https://ai-native.panaversity.org/docs/preface-agent-native
+
 ### 1. AI Assistant
 An AI Assistant is a tool or agent that helps humans perform tasks — using AI models (like ChatGPT, Copilot, or Gemini).
 
