@@ -1,6 +1,9 @@
 
 https://ai-native.panaversity.org/docs/preface-agent-native
 
+### What is Spec-Driven Development?
+Spec-Driven Development flips the script on traditional software development. For decades, code has been king — specifications were just scaffolding we built and discarded once the "real work" of coding began. Spec-Driven Development changes this: specifications become executable, directly generating working implementations rather than just guiding them.
+
 ### 1. AI Assistant
 An AI Assistant is a tool or agent that helps humans perform tasks — using AI models (like ChatGPT, Copilot, or Gemini).
 
@@ -26,4 +29,5 @@ Yani, app ka main logic, workflow, aur architecture AI pe depend karta hai.Syste
 * Existing app me AI chatbot add karna
 * CRM system me AI-based customer prediction lagana
 * IDE me AI code suggestion add karna (Copilot, Tabnine)
+
 
