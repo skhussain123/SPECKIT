@@ -42,7 +42,7 @@ claude mcp add --transport stdio context7 npx @upstash/context7-mcp
 ## Context 7 Connection
 ```bash
 claude mcp add --transport stdio context7 npx @upstash/context7-mcp
-npm install -g @playwright/mcp @upstash/context7-mcp
+npm install -g @playwright/mcp @upstash/context7-mcp (Run on power shell administrator)
 ```
 
 ```bash
