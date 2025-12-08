@@ -121,9 +121,17 @@ Test with:
 Your OAuth token expires. Refresh it by:
 1. Re-authenticating your QWEN CODE CLI: If already logged in and the access_token matches in both `config.json` and `oauth_creds.json`, delete the oauth_creds.json file and run `qwen` to initiate re-authentication.
 2. Update the `api_key` in your config.json with the new access_token:
-   ```powershell
-   notepad "$env:USERPROFILE\.claude-code-router\config.json"
-   ```
 3. Restart: `ccr restart`
 
-If using WSL: [wsl setup](https://github.com/DanielHashmi/Q4_learning/blob/main/spec-driven-development/tutorials/How%20to%20Use%20Claude%20Code%20with%20Qwen%20models%20for%20Free%20on%20Linux%20and%20macOS%20(sh%20and%20bash).md)
+#### Run power shell 
+```bash
+Remove-Item "$env:USERPROFILE\.qwen\oauth_creds.json" -ErrorAction SilentlyContinue
+```
+#### CallQwen
+```bash
+qwen
+```
+#### Relogin
+```bash
+/login
+```
