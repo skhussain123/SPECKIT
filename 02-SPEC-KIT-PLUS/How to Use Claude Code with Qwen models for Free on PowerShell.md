@@ -123,6 +123,8 @@ Your OAuth token expires. Refresh it by:
 2. Update the `api_key` in your config.json with the new access_token:
 3. Restart: `ccr restart`
 
+
+## Token Refresh Process
 #### Run power shell 
 ```bash
 Remove-Item "$env:USERPROFILE\.qwen\oauth_creds.json" -ErrorAction SilentlyContinue
